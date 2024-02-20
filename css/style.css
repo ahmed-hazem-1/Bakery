@@ -1,0 +1,511 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #373636;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    z-index: 1000;
+   background-color: #373636;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 7px;
+}
+.nav .lnav{
+    width: 100px;
+    margin-left: 10px;
+}
+.nav .lnav img{
+    padding: 15px;
+    width: 100%;
+}
+.nav .rnav{
+    padding: 15px;
+    display: flex;
+    width: 60%;
+}
+.rnav ul{
+    width: 100%;
+    font-size: medium;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+.rnav ul li{
+    padding: 10px;
+    color: white;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+}
+.rnav ul li:hover {
+    color: bisque;
+    font-size: x-large;
+    padding: 0px;
+    cursor: pointer;
+}
+/* ----------------main-------------- */
+.main{
+    background-image: url(../imgs/home.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.start{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    margin-bottom: 110px;
+}
+
+.welcome , .family{
+    font-size: xx-large;
+}
+
+
+.start .link {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start .link .pos {
+    border:inset solid rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    width: 30%;
+    height: 30px;
+    position: relative;
+    padding: 15px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-around;
+}
+.start .pos:hover{
+    border: none;
+}
+.start a {
+    padding: 10px;
+    color: white;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.start a:hover {
+    color: bisque;
+    font-size: medium;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.lorem {
+    margin: 30px;
+    font-size: medium;
+    margin-bottom: 90px;
+}
+.bake{
+    margin: 30px;
+    font-size: medium;
+    margin-bottom:20px;
+    padding: 5px;
+}
+.bake .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-size: medium;
+    margin-bottom: 90px;
+    padding: 5px;
+    position: relative;
+    height: 100px;
+}
+.bake .button button{
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    border: none;
+    box-shadow: none;
+    position: absolute;
+}
+.bake .button button:hover{
+    color: bisque;
+    font-size: x-large;
+    cursor: pointer;
+    background-color: #373636;
+}
+
+.start .button .contact {
+    background: transparent;
+    border: solid white;
+    position: absolute;
+    right: 25%;
+    transition: 0.5s;
+    padding-bottom: -20px;
+}
+
+.start .button .learn {
+    background-color: rgba(171, 116, 48, 0.902);
+    border: none;
+    position: absolute;
+    left :25%;
+    transition: 0.5s;
+}
+
+
+.are {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    flex-wrap: nowrap;
+    height: 600px;
+}
+
+.are .img1 {
+    background-image: url(../imgs/about.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 540px;
+    display: inline-block;
+    width: 50%;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+
+.are .who {
+    font-size: x-large;
+    display: block;
+    padding: 70px;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.are .who .lorem {
+    padding-left: 0px;
+}
+
+.are .who ul {
+    padding-left: 0%;
+    font-size: medium;
+    font-weight: bold;
+    text-align: left;
+    list-style: none;
+}
+/* ----------------------------- */
+.loction {
+    flex-direction: row-reverse;
+    display: flex;
+    background-color: rgb(186, 184, 184);
+    width: 100%;
+    flex-wrap: nowrap;
+    height: 600px;
+}
+
+.loction .our {
+    font-size: x-large;
+    display: block;
+    padding: 70px;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.loction .img2 {
+    background-image: url(../imgs/ofer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 800px; */
+    display: inline-block;
+    width: 50%;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+.space {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    height: 570px;
+    background-image: url(../imgs/home.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: -23px;
+}
+.video{
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px 10px #202020c4;
+    width: 70%;
+}
+
+
+.bottom {
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.pic {
+    margin-top: 40px;
+    display: flex;
+}
+
+.pchild img {
+    width: 70%;
+    border-radius: 50px;
+}
+/* footer */
+
+.end {
+    position: relative;
+    width: 100% ;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #202020;
+    bottom: 0;
+    background-attachment: fixed;
+    color: white;
+    padding-bottom: -10px;
+}
+.end p{
+    font-size: small;
+    margin: 0;
+    padding: 10px;
+
+}
+.end a{
+    text-decoration: none;
+    color: bisque;
+    margin: 0 10px;
+    font-size: small;
+
+}
+.end img {
+    height: 100%;
+    width: 100px;
+}
+/* -----------------------phone_display--------------------------------------*/
+@media screen and (max-width:780px){
+    .nav{
+       position: fixed;
+    }
+    .nav .lnav{
+        width: 30%;
+        margin: 10px;
+    }
+    .nav .lnav img{
+        width: 100%;
+    }
+    .nav .rnav ul{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        height: 50px;
+    }
+   
+    .nav .rnav ul li{
+        width: 70px;
+        padding: 5px;
+        text-align: right;
+        font-size: 0.5em;
+
+    }
+    .rnav ul li:hover {
+        color: bisque;
+        font-size: 0.5em;
+    }
+    .nav .lnav img{
+        width: 50%;
+    }
+    .start{
+        margin-bottom: 50px;
+    }
+    .start .pos:hover{
+        border: none;
+        background-color: transparent;
+    }
+    .start a{
+        text-decoration: none;
+        color: white;
+        margin: 0 10px;
+        font-size: small;
+    }
+    .start a:hover {
+        text-decoration: none;
+        color: bisque;
+        margin: 0 10px;
+        font-size: small;
+    }
+    .bake{
+        margin: 30px;
+        font-size: small;
+        padding:  5px;
+    }
+    .bake .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+        font-size: small;
+        margin-bottom: 90px;
+        padding: 5px;
+        position: relative;
+        height: 50px;
+        text-align: center;
+    }
+    .bake .button button{
+        color: white;
+        font-size: x-small;
+        padding: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+        border-radius: 5px;
+        text-align: center;
+        border: none;
+        box-shadow: none;
+        position: absolute;
+    }
+    .bake .button button:hover{
+        color: bisque;
+        font-size:x-small;
+        cursor: pointer;
+        background-color: #373636;
+    }
+    
+    .start .button .contact {
+        background: transparent;
+        border: solid white;
+        position: absolute;
+        right: 15%;
+        transition: 0.5s;
+    }
+    
+    .start .button .learn {
+        background-color: rgba(171, 116, 48, 0.902);
+        border: none;
+        position: absolute;
+        left :15%;
+        transition: 0.5s;
+    }
+    
+    .are {
+        display: flex;
+        background-color: white;
+        width: 90%;
+        flex-wrap: wrap;
+        /* height: 700px; */
+        padding: 20px;
+    }
+    .loction{
+        display: flex;
+        background-color: rgb(186, 184, 184);
+        width: 90%;
+        flex-wrap: wrap;
+        /* height: 700px; */
+        padding: 20px;
+    }
+    .are .img1 ,.loction .img2 {
+        display: block;
+        width: 100%;
+        height: 300px;
+        margin: 0;
+    }
+    .are .who ,.loction .our{
+        width: 100%;
+        padding: 5px;
+        margin: 0;
+        text-align: center;
+    }
+    .are .who .lorem ,.loction .our p{
+        padding-left: 0px;
+        margin: 5px;
+        font-size: small;
+
+    }
+    .are .who ul ,.loction .our ul{
+        font-size: small;
+        font-weight: bold;
+        text-align: left;
+        list-style: none;
+    }
+  
+    .are .who ul ,.loction .our ul{
+        font-size: small;
+        font-weight: bold;
+        text-align: left;
+        list-style: none;
+    }
+    .space {
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        background-image: url(../imgs/home.jpeg);
+        background-attachment: fixed;
+        background-size: cover;
+        /* margin-bottom: -23px; */
+        height: 250px;
+        
+    }
+    .video{
+        border-radius: 20px;
+        box-shadow: 5px 5px 25px 10px #202020c4;
+        width: 100%;
+        height: 100%;
+    }
+        
+    .bottom {
+        background-color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .pic {
+        margin-top: 40px;
+        display: flex;
+    }
+
+    .pchild img {
+        width: 100px;
+        height: 100px;
+        border-radius: 180px;
+    }
+    
+}
